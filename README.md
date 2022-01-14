@@ -2,7 +2,7 @@
 
 create file ~/.config/nvim/init.vim
 
-'''
+```
 set mouse=a " enable mouse
 set encoding=utf-8
 set number
@@ -265,4 +265,4 @@ set colorcolumn=79
 autocmd FileType python map <buffer> <C-r> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <C-r> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
-'''
+```
