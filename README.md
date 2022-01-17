@@ -1,4 +1,8 @@
 # nvim-config
+```
+apt install npm
+npm install -g pyright
+```
 
 create file ~/.config/nvim/init.vim
 
